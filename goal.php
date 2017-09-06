@@ -6,10 +6,10 @@ $usergoalAmount = $_POST['goalAmount'];
 $usergoalStartDate= $_POST['goalStartDate'];
 $usergoalEndDate = $_POST['goalEndDate'];
 
-$user = "root";
-$pass = "63628600timmi";
-$host= "localhost";
-$dbname="cashTime";
+$user = "ivan";
+$pass = "m3tr0n3t";
+$host= "idev2.gcinnovate.com";
+$dbname="cashTime"
 
 $con = mysqli_connect($host,$user,$pass,$dbname);
 $sql="insert into Goal(goalName,goalAmount,goalStartDate,goalEndDate) values('".$usergoalName."','".$usergoalAmount."','".$usergoalStartDate."','".$usergoalEndDate."');";

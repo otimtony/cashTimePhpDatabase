@@ -8,7 +8,7 @@ $usertotalHomeneedsExpenditure = $_POST['totalHomeneedsExpenditure'];
 $usertotalEducationExpenditure= $_POST['totalEducationExpenditure'];
 $usertotalOthersExpenditure = $_POST['totalOthersExpenditure'];
 
-$user = "ivan@165.227.67.248";
+$user = "ivan";
 $pass = "m3tr0n3t";
 $host= "idev2.gcinnovate.com";
 $dbname="cashTime"

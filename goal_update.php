@@ -7,7 +7,7 @@ $usergoalStartDate= $_POST['goalStartDate'];
 $usergoalEndDate = $_POST['goalEndDate'];
 $goal_id = $_POST['id'];
 
-$user = "ivan@165.227.67.248";
+$user = "ivan";
 $pass = "m3tr0n3t";
 $host= "idev2.gcinnovate.com";
 $dbname="cashTime"

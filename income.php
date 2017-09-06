@@ -6,7 +6,7 @@ $usertotalInvestmentIncome = $_POST['totalInvestmentIncome'];
 $usertotalLoanIncome= $_POST['totalLoanIncome'];
 $usertotalOthersIncome = $_POST['totalOthersIncome'];
 
-$user = "ivan@165.227.67.248";
+$user = "ivan";
 $pass = "m3tr0n3t";
 $host= "idev2.gcinnovate.com";
 $dbname="cashTime"

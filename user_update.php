@@ -10,10 +10,10 @@ $userpoints = $_POST['points'];
 $user_id = $_POST['id'];
 
 
-$user = "root";
-$pass = "63628600timmi";
-$host= "localhost";
-$dbname="cashTime";
+$user = "ivan";
+$pass = "m3tr0n3t";
+$host= "idev2.gcinnovate.com";
+$dbname="cashTime"
 
 $con = mysqli_connect($host,$user,$pass,$dbname);
 $sql="update users
